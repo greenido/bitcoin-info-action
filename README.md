@@ -5,6 +5,8 @@ business logic for your API.AI bitcoin agent. It could fetch the current price o
 
 #### (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
 
+![bitcoin logo](https://greenido.files.wordpress.com/2015/07/screenshot-2015-07-13-11-45-37.png?w=307&h=289)
+
 ## Setup Instructions
 
 ### Pre-requisites
