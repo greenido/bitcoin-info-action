@@ -3,6 +3,8 @@
 This webhook example for bitcoin-info codelab sets up everything you need to build your fulfillment
 business logic for your API.AI bitcoin agent. It could fetch the current price or the total amount of bitcoins for you.
 
+(!) Psst... Want to get a cool intro to bitcoin? Checkout this [https://www.youtube.com/watch?v=TN7cmfoH06w](short video) I made.
+
 ## Setup Instructions
 
 ### Pre-requisites
