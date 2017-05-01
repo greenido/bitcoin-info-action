@@ -38,7 +38,8 @@ exports.bitcoinInfo = (req, res) => {
         request(EXT_BITCOIN_API_URL + EXT_PRICE, function(error, response, body) {
             // The fulfillment logic for returning the bitcoin current price
             console.log("priceHandler response: " + JSON.stringify(response) + " Body: " + body + " | Error: " + error);
-            const msg = "Right now the price of a bitcoin is " + body + " USD";
+            const msg = "Right now the price of a bitcoin is " + body + " USD. ";
+            msg += "What else would you like to know?";
             assistant.tell(msg);
         });
     }
@@ -49,7 +50,8 @@ exports.bitcoinInfo = (req, res) => {
             console.log("totalHandler response: " + JSON.stringify(response) + " Body: " + body + " | Error: " + error);
             // The fulfillment logic for returning the amount of bitcoins in the world
             const billionsBitcoins = body / 1000000000;
-            const msg = "Right now there are " + billionsBitcoins + " billion bitcoins around the world.";
+            const msg = "Right now there are " + billionsBitcoins + " billion bitcoins around the world. ";
+            msg += "What else would you like to know?";
             assistant.tell(msg);
         });
     }
