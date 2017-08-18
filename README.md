@@ -4,7 +4,10 @@ This webhook example for bitcoin-info codelab sets up everything you need to bui
 business logic for your API.AI bitcoin agent. 
 It could fetch the current price, market cap or the total amount of bitcoins. 
 
-#### (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
+#### Demo
+* Check it live as Assistant App [Bitcoin Info](https://assistant.google.com/services/a/id/66888e9b751b325a/) or on the [web](https://ido-green.appspot.com/bots.html)
+* Read more about it [here](https://greenido.wordpress.com/2017/06/14/a-bitcoiner-info-action/)
+* (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
 
 ![bitcoin logo](https://greenido.files.wordpress.com/2015/07/screenshot-2015-07-13-11-45-37.png?w=307&h=289)
 
