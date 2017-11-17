@@ -14,9 +14,9 @@ It could fetch the current price, market cap or the total amount of bitcoins.
 ## Setup Instructions
 
 ### Pre-requisites
- 1. API.AI account: [https://api.ai](https://api.ai)
- 2. Google Cloud project: [https://console.cloud.google.com/project](https://console.cloud.google.com/project)
-
+ 1. Dialogflow account: [https://dialogflow.com](https://dialogflow.com)
+ 2. Google Cloud project: [https://console.cloud.google.com/project](https://console.cloud.google.com/project) or you can use this [glitch template](https://glitch.com/edit/#!/aog-template) to have your webhook hosted on Glitch.
+ 
 See the developer guide and release notes at [https://developers.google.com/actions/](https://developers.google.com/actions/) for more details.
 
 ### Steps
@@ -51,7 +51,5 @@ Your use of this sample is subject to, and by using or downloading the sample fi
 
 ## Google+
 Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev).
-
-
 
 [![Analytics](https://ga-beacon.appspot.com/UA-65622529-1/bitcoin-info-action/)](https://github.com/igrigorik/ga-beacon)
