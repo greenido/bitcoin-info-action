@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bay Area Air quality index Alexa Skill</title>
+    <meta name="description" content="Bay Area Air quality index Alexa Skill">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h2>
+        Bay Area Air quality index Alexa Skill
+      </h2>
+    </header>
+
+    <main>
+      <section>
+        <div style="white-space:pre;border:1px solid black;margin:5px;padding:5px;font-family:monospace;">
+App: <%=JSON.stringify(app, null, 2)%>
+
+Schema:
+<%=schema%>
+
+Utterances:
+<%=utterances%>
+        </div>
+      </section>
+    </main>
+
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script>
+  </body>
+</html>

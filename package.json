@@ -1,23 +1,22 @@
 {
-    "name": "bitcoin-info-io17",
-    "description": "This is bitcoin-info-io17 webhook",
-    "version": "0.0.1",
-    "private": true,
-    "license": "Apache Version 2.0",
-    "author": "Google Inc.",
-    "engines": {
-        "node": "~6.0"
-    },
-    "scripts": {
-        "lint": "semistandard --fix \"**/*.js\"",
-        "start": "functions deploy bitcoinInfo --trigger-http",
-        "deploy": "gcloud beta functions deploy bitcoinInfo --trigger-http --stage-bucket saynum"
-    },
-    "dependencies": {
-        "actions-on-google": "^1.0.0",
-        "request": "^2.81.0"
-    },
-    "devDependencies": {
-        "semistandard": "^9.1.0"
-    }
+  "name": "bitcoin-info-alexa-skill",
+  "version": "0.1.1",
+  "description": "bitcoin info skill for alexa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "echo",
+    "skills"
+  ],
+  "author": "Ido Green | @greenido",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^4.2.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
 }
