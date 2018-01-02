@@ -36,7 +36,7 @@ const EXT_MARKET_CAP = "/q/marketcap";
 const EXT_INTERVAL = "/q/interval";
 
 // [START Bitcoin Info]
-exports.bitcoinInfo = (req, res) => {
+const bitcoinInfo = (req, res) => {
   const assistant = new Assistant({request: req, response: res});
   console.log('bitcoinInfoAction Request headers: ' + JSON.stringify(req.headers));
   console.log('bitcoinInfoAction Request body: ' + JSON.stringify(req.body));
@@ -101,3 +101,5 @@ exports.bitcoinInfo = (req, res) => {
   assistant.handleRequest(actionMap);
 };
 // [END Bitcoin Info]
+const functions = require('firebase-functions');
+exports.bitcoinInfo = functions.https.onRequest( bitcoinInfo );
