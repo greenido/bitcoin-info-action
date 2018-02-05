@@ -15,8 +15,8 @@
 
 process.env.DEBUG = 'actions-on-google:*';
 
-// We need the Assistant client for all the magic here
-const Assistant = require('actions-on-google').ApiAiAssistant;
+// We need the Dialogflow App client for all the magic here
+const { DialogflowApp } = require('actions-on-google');
 // To make our http request (a bit nicer)
 const request = require('request');
 
@@ -37,7 +37,7 @@ const EXT_INTERVAL = "/q/interval";
 
 // [START Bitcoin Info]
 const bitcoinInfo = (req, res) => {
-  const assistant = new Assistant({request: req, response: res});
+  const assistant = new DialogflowApp({request: req, response: res});
   console.log('bitcoinInfoAction Request headers: ' + JSON.stringify(req.headers));
   console.log('bitcoinInfoAction Request body: ' + JSON.stringify(req.body));
 
